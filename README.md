@@ -19,8 +19,7 @@ This Cypress framework focuses on testing the booking function of Project 3's fr
 
 1. **Clone the Repository:**
     ```bash
-    git clone <repository-url>
-    cd Project_3_Cypress
+    git clone git@github.com:imalex2020/Project_3.git
     ```
 
 2. **Install Dependencies:**
