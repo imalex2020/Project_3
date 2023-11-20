@@ -1,0 +1,58 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "labels": [
+    "Trip type",
+    "Cabin Class",
+    "From",
+    "To",
+    "Depart",
+    "Return",
+    "Number of passengers",
+    "Passenger 1"
+  ],
+  "passengers": [
+    "1",
+    "Adult (16-64)"
+  ],
+  "DepartMsg": {
+
+    "TC3": {
+      "cabinClass": "Business",
+      "departCityFrom": "IL",
+      "departCityTo": "FL",
+      "numberOfPasseger": "1",
+      "passengerInfo": "Senior (65+)",
+      "header": "DEPART",
+      "day": 7
+      
+    },
+
+    "TC4": {
+      "cabinClass": "First",
+      "city1": "CA",
+      "city2": "IL",
+      "numberOfPasseger": "1",
+      "passengerInfo": "Adult (16-64)",
+      "headerDepart": "DEPART",
+      "headerReturn":"RETURN",
+      "day": 7,
+      "month": 1
+    },
+
+    "TC5": {
+      "cabinClass": "Premium Economy",
+      "city1": "NY",
+      "city2": "TX",
+      "numberOfPasseger": "2",
+      "passengerInfo1": "Adult (16-64)",
+      "passengerInfo2": "Child (2-11)",
+      "headerDepart": "DEPART",
+      "headerReturn":"RETURN",
+      "day": 1
+      
+    }
+    
+  }
+}
